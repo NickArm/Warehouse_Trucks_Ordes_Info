@@ -1,0 +1,94 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+
+body{
+    font-size: 200%;
+}
+h3{    
+	color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+	}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+
+
+
+.main-wrapper {
+    margin-left: 0px;
+}
+
+.mt-5, .my-5 {
+    margin-top: 0rem !important;
+	margin-bottom: 1rem !important;
+}
+
+#table-custom-3 {    padding: .15rem .75rem;}
+
+.form-control {
+    padding-top: 0.575rem;
+    padding-bottom: 0.575rem;
+}
+
+/*-----------------------------------------------------------*/
+
+#table-custom-2 thead{display:none;}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 20px 10px!important;
+}
+
+.dataTables_filter{display:none;}
+
+.dataTables_wrapper .ui-toolbar {
+    display: none;
+}
+
+table.dataTable.display tbody tr{
+    background-color: #000;
+    color: #fff;
+}
+
+table.dataTable.display tbody tr.odd {
+    background-color: #142aa2!important;
+}
+
+table.dataTable.display tbody tr:hover {
+    background-color: #000!important;
+}
+
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color: #142aa2!important;
+}
+
+table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    background-color: #000!important;
+}
+
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background-color: #000!important;
+}
+
+
+@media (min-width: 576px){
+	.modal.show .modal-dialog {
+    transform: none;
+    max-width: 60%;
+	    font-size: 85%;
+}
+}

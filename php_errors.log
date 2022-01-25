@@ -1,0 +1,24 @@
+[23-Mar-2021 12:13:36 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: No route to host
+	Is the server running on host &quot;100.100.1.201&quot; and accepting
+	TCP/IP connections on port 5432? in /var/ftp/www/reports/apothiki/db/pgconnect.php on line 3
+[23-Mar-2021 12:13:37 UTC] PHP Fatal error:  Uncaught TypeError: pg_query(): Argument #1 ($connection) must be of type resource, bool given in /var/ftp/www/reports/apothiki/index.php:13
+Stack trace:
+#0 /var/ftp/www/reports/apothiki/index.php(13): pg_query()
+#1 {main}
+  thrown in /var/ftp/www/reports/apothiki/index.php on line 13
+[23-Mar-2021 12:13:47 UTC] PHP Warning:  pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: No route to host
+	Is the server running on host &quot;100.100.1.201&quot; and accepting
+	TCP/IP connections on port 5432? in /var/ftp/www/reports/apothiki/db/pgconnect.php on line 3
+[23-Mar-2021 12:13:47 UTC] PHP Fatal error:  Uncaught TypeError: pg_query(): Argument #1 ($connection) must be of type resource, bool given in /var/ftp/www/reports/apothiki/index.php:13
+Stack trace:
+#0 /var/ftp/www/reports/apothiki/index.php(13): pg_query()
+#1 {main}
+  thrown in /var/ftp/www/reports/apothiki/index.php on line 13
+[23-Mar-2021 12:14:05 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "A" in /var/ftp/www/reports/apothiki/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /var/ftp/www/reports/apothiki/index.php on line 59
+[23-Mar-2021 12:15:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "T" in /var/ftp/www/reports/apothiki/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /var/ftp/www/reports/apothiki/index.php on line 61
